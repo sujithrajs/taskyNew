@@ -62,6 +62,7 @@ class _HomePageState extends State<HomePage> {
       db.toDoList.removeAt(index);
     });
     db.updateDataBase();
+    print('hi');
   }
 
   @override
